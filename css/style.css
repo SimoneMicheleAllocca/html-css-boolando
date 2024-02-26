@@ -81,6 +81,15 @@ img{
         text-decoration: line-through;
     }
 
+    .heart{
+        position: absolute;
+        background-color: white;
+        top: 0;
+        right: 0;
+        font-size: 30px;
+        padding: 5px;
+    }
+
 /* CHANGE-IMAGES */
 .b{
     display: none;
@@ -91,4 +100,9 @@ img{
 }
 .card:hover .b{
     display:block;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
 }

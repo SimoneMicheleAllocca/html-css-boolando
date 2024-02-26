@@ -11,6 +11,62 @@ body{
 img{
     max-width: 100%;
 }
+ 
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* HEADER */
+header {
+    background-color: #FF6900;
+    position: fixed;
+    z-index: 9999;
+    height: 70px;
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(113, 113, 113, 0.769);
+}
+
+.nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+ul {
+    display: flex;
+    margin-left: 15px;
+    position: absolute;
+    top: 30px;
+}
+
+.genre ul li {
+    padding: 5px;
+    font-weight: 800;
+}
+
+.icons ul {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    padding: 5px;
+}
+
+
+
+.logo {
+    width: 140px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+}
 /* CONTAINER */
 .container{
     width: 80%;
